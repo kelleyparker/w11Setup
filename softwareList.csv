@@ -1,0 +1,18 @@
+Url,InstallDir,DisplayName
+https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe,C:\Program Files\Steam,Steam
+https://download-installer.cdn.mozilla.net/pub/firefox/releases/114.0.1/win64/en-US/Firefox%20Setup%20114.0.1.exe,C:\Program Files\Mozilla Firefox,Firefox
+https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi,C:\Program Files\Google\Chrome,Chrome web browser
+https://download.oracle.com/java/20/latest/jdk-20_windows-x64_bin.msi,C:\Program Files\Java\jdk,Java SDK 20 x64
+https://cdn-fastly.obsproject.com/downloads/OBS-Studio-29.1.2-Full-Installer-x64.exe,C:\Program Files\obs-studio,OBS Studio
+https://www.7-zip.org/a/7z2300-x64.exe,C:\Program Files\7-Zip,7-Zip
+https://github.com/audacity/audacity/releases/download/Audacity-3.3.3/audacity-win-3.3.3-x64.exe,C:\Program Files\Audacity,Audacity
+https://awscli.amazonaws.com/AWSCLIV2.msi,C:\Program Files\Amazon\AWSCLI,AWS Command Line Interface (CLI)
+https://www.wireshark.org/download/win64/all-versions/Wireshark-win64-3.4.7.exe,C:\Program Files\Wireshark,Wireshark
+https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe,C:\Program Files\Python39,Python
+https://download.teamviewer.com/download/TeamViewer_Setup.exe,C:\Program Files\TeamViewer,TeamViewer
+https://edge.elgato.com/egc/windows/eccw/1.4.2/ControlCenter_1.4.2.67_x64.msi,C:\Program Files\Elgato\Control Center,Elgato Control Center
+https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe,C:\Program Files\Docker Desktop,Docker Desktop
+https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.22/android-studio-2020.3.1.22-windows.exe,C:\Program Files\Android\Android Studio - Stable,Android Studio
+https://redirector.gvt1.com/edgedl/android/studio/install/2023.1.1.7/android-studio-2023.1.1.7-windows.exe,C:\Program Files\Android\Android Studio Canary,Android Studio Canary
+https://demodownload.image-line.com/flstudio/flstudio_win64_21.0.3.3517.exe,C:\Program Files\Image-Line\FL Studio 21,FL Studio 21
+https://dl-ptb.discordapp.net/distro/app/ptb/win/x86/1.0.1027/DiscordPTBSetup.exe,C:\Program Files\Discord,Discord
