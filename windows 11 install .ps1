@@ -45,7 +45,35 @@ function InstallSoftware($url, $installDir, $displayName) {
     Remove-Item $downloadPath
 }
 
+######################################################################################################################
+#
+# Disable screen saver
+$null = Set-ItemProperty -Path 'HKCU:\Control Panel\Desktop' -Name ScreenSaveActive -Value 0
 
+# Adjust power settings to high performance
+$powerPlan = powercfg /L | Select-String -Pattern 'High performance'
+$powerPlanGUID = $powerPlan -replace '^.*:\s+(\S+).*$', '$1'
+powercfg /S $powerPlanGUID
+
+# Get current sleep timer length
+$sleepSettings = powercfg /QUERY SCHEME_CURRENT | Select-String -Pattern 'Sleep after'
+$sleepTimer = if ($sleepSettings) {
+    $sleepSettings -replace '^.*Sleep after\s+:\s+(.*)$', '$1'
+} else {
+    'Never'
+}
+$sleepTimer
+
+# Get current screen power off length
+$monitorTimeout = powercfg /QUERY SCHEME_CURRENT | Select-String -Pattern 'Turn off display after'
+$screenTimeout = if ($monitorTimeout) {
+    $monitorTimeout -replace '^.*Turn off display after\s+:\s+(.*)$', '$1'
+} else {
+    'Never'
+}
+$screenTimeout
+#
+######################################################################################################################
 
 #########################################################################################
 # Define the URLs and installation directories for each software						#
