@@ -26,6 +26,10 @@ function InstallSoftware($url, $installDir, $displayName) {
         $exeArguments = "install", "--quiet", "--accept-license", "--installation-dir=C:\Program Files\Docker\Docker"
         Start-Process -FilePath $downloadPath -ArgumentList $exeArguments -Wait
     }
+    elseif ($displayName -eq "Git") {
+        $exeArguments = "/VERYSILENT", "/NORESTART"
+        Start-Process -FilePath $downloadPath -ArgumentList $exeArguments -Wait
+    }
     else {
         Start-Process -FilePath $downloadPath -ArgumentList "/S", "/D=`"$installDir`"" -Wait
     }
@@ -40,6 +44,7 @@ function InstallSoftware($url, $installDir, $displayName) {
 
     Remove-Item $downloadPath
 }
+
 
 
 #########################################################################################
