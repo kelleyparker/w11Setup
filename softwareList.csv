@@ -31,3 +31,8 @@ https://international.download.nvidia.com/Windows/broadcast/sdk/AR/nvidia_ar_sdk
 https://nodejs.org/dist/v20.3.0/node-v20.3.0-x64.msi,C:\Program Files (x86)\nodejs,NodeJS
 https://international.download.nvidia.com/Windows/broadcast/1.4.0.29/NVIDIA_Broadcast_v1.4.0.29.exe,C:\Program Files\NVIDIA,NVIDIA Broadcast
 https://az764295.vo.msecnd.net/stable/4cb974a7aed77a74c7813bdccd99ee0d04901215/VSCodeSetup-x64-1.79.1.exe,C:\Program Files\Microsoft\Visual Studio Code,Visual Studio Code
+https://www.voidtools.com/Everything-1.4.1.1024.x64.msi,C:\Program Files\Everything x64\,Everything
+https://desktop-release.canva.com/Canva%20Setup%201.67.0.exe,C:\Program Files\Canva,Canva
+https://referrals.brave.com/latest/BraveBrowserSetup-BRV010.exe,C:\Program Files\Brave,Brave
+https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi,C:\EpicGamesLauncher,Epic Games Launcher
+https://dl3.cdn.filezilla-project.org/client/FileZilla_3.64.0_win64-setup.exe?h=bGt2H1Wsjpwwk1hMj8EZfQ&x=1686781869,C:\Program Files\Filezilla x64,Filezilla
