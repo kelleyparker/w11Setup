@@ -25,3 +25,6 @@ https://download3.operacdn.com/pub/opera/desktop/99.0.4788.65/win/Opera_99.0.478
 https://download3.operacdn.com/pub/opera_gx/99.0.4788.67/win/Opera_GX_99.0.4788.67_Setup_x64.exe,C:\Program Files\Opera GX\,Opera GX
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe,C:\Program Files\Notepad++,Notepad++
 https://download.nvidia.com/gfnpc/GeForceNOW-release.exe,C:\Program Files\NVIDIA\GeForceNow,GeForceNow
+https://international.download.nvidia.com/Windows/broadcast/sdk/AFX/2022-12-22_nvidia_afx_sdk_win_v1.3.0.21_ada.exe,C:\Program Files\NVIDIA\Audio Effects,NVIDIA Audio Effects
+https://international.download.nvidia.com/Windows/broadcast/sdk/VFX/nvidia_video_effects_sdk_installer_v0.7.2_ada.exe,C:\Program Files\NVIDIA\Video Effects,NVIDIA Video Effects
+https://international.download.nvidia.com/Windows/broadcast/sdk/AR/nvidia_ar_sdk_installer_v0.8.2_ada.exe,C:\Program Files\NVIDIA\Audio AR,NVIDIA AR
