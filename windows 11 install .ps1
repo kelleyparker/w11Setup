@@ -59,6 +59,13 @@ foreach ($software in $softwareList) {													#
 }																						#
 #########################################################################################
 
+#########################################################################################
+# Set the time zone to America Central
+$timezone = 'Central Standard Time'  # Time zone identifier for America Central
+Set-TimeZone -Id $timezone
+#
+#########################################################################################
+
 
 
 #########################################################################################
@@ -79,7 +86,7 @@ foreach ($featureName in $featureNames) {
     Write-Output "Enabling feature: $featureName"
     Enable-WindowsOptionalFeature -Online -FeatureName $featureName -NoRestart
 }
-$userInfo = Import-Csv -Path "C:\users\WDAGUtilityAccount\user-info.csv"
+$userInfo = Import-Csv -Path "user-info.csv"
 
 foreach ($user in $userInfo) {
     # Check if the user account already exists
