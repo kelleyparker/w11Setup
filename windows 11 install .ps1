@@ -23,7 +23,7 @@ function InstallSoftware($url, $installDir, $displayName) {
         Start-Process -FilePath $downloadPath -ArgumentList $exeArguments -Wait
     }
     elseif ($displayName -eq "Docker Desktop") {
-        $exeArguments = "--quiet", "--accept-license", "--installation-dir=C:\Program Files\Docker\Docker"
+        $exeArguments = "install", "--quiet", "--accept-license", "--installation-dir=C:\Program Files\Docker\Docker"
         Start-Process -FilePath $downloadPath -ArgumentList $exeArguments -Wait
     }
     else {
