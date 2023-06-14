@@ -12,8 +12,9 @@ https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe,C:\Program Files\
 https://download.teamviewer.com/download/TeamViewer_Setup.exe,C:\Program Files\TeamViewer,TeamViewer
 https://edge.elgato.com/egc/windows/eccw/1.4.2/ControlCenter_1.4.2.67_x64.msi,C:\Program Files\Elgato\Control Center,Elgato Control Center
 https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.22/android-studio-2020.3.1.22-windows.exe,C:\Program Files\Android\Android Studio - Stable,Android Studio
-https://redirector.gvt1.com/edgedl/android/studio/install/2023.1.1.8/android-studio-2023.1.1.8-windows.exe,C:\Program Files\Android\Android Studio Canary,Android Studio Canary
+https://redirector.gvt1.com/edgedl/android/studio/install/2023.1.1.7/android-studio-2023.1.1.7-windows.exe,C:\Program Files\Android\Android Studio Canary,Android Studio Canary
 https://demodownload.image-line.com/flstudio/flstudio_win64_21.0.3.3517.exe,C:\Program Files\Image-Line\FL Studio 21,FL Studio 21
 https://dl-ptb.discordapp.net/distro/app/ptb/win/x86/1.0.1027/DiscordPTBSetup.exe,C:\Program Files\Discord,Discord
 https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe,C:\Program Files\Docker Desktop,Docker Desktop
 https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.1/Git-2.41.0-64-bit.exe,C:\Program Files\Git,Git
+https://us.download.nvidia.com/Windows/532.03/532.03-desktop-win10-win11-64bit-international-dch-whql.exe,C:\NVIDIA,NVIDIA
