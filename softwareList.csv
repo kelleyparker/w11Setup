@@ -20,7 +20,7 @@ https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.1/Git-2
 https://us.download.nvidia.com/Windows/536.23/536.23-desktop-win10-win11-64bit-international-dch-whql.exe,C:\NVIDIA,NVIDIA
 https://download3.vmware.com/software/WKST-1700-WIN/VMware-workstation-full-17.0.0-20800274.exe,C:\Program Files\VMware Workstation Pro,VMware Workstation Pro
 https://southfront.mm.fcix.net/videolan-ftp/vlc/3.0.18/win32/vlc-3.0.18-win32.msi,C:\Program Files\VLC,VLC
-https://windirstat.net/wds_current_setup.exe,C:\Program Files\Windirstat,WinDirStat
+https://newcontinuum.dl.sourceforge.net/project/windirstat/windirstat/1.1.2%20installer%20re-release%20%28more%20languages%21%29/windirstat1_1_2_setup.exe,C:\Program Files\Windirstat,WinDirStat
 https://download3.operacdn.com/pub/opera/desktop/99.0.4788.65/win/Opera_99.0.4788.65_Setup_x64.exe,C:\Program Files\Opera\,Opera
 https://download3.operacdn.com/pub/opera_gx/99.0.4788.67/win/Opera_GX_99.0.4788.67_Setup_x64.exe,C:\Program Files\Opera GX\,Opera GX
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.Installer.x64.exe,C:\Program Files\Notepad++,Notepad++
